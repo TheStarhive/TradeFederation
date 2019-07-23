@@ -23,4 +23,4 @@ async def on_member_remove(member):
 async def ping(ctx, *, argument: str):
     await ctx.send("Pong" + argument)
 
-bot.run("NjAyOTgzMTA1NjQ0NDYyMTEx.XTaSCA.gX5XUPA3UETlyZDwAxI2PTSjoKg")
+bot.run(str(os.environ.get("BOT_TOKEN")))
