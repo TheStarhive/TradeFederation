@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-import os
 
 bot = commands.Bot(command_prefix="!")
 
@@ -24,4 +23,4 @@ async def on_member_remove(member):
 async def ping(ctx, *, argument: str):
     await ctx.send("Pong" + argument)
 
-bot.run(str(os.environ.get("BOT_TOKEN")))
+bot.run("NjAyOTgzMTA1NjQ0NDYyMTEx.XTaU6w.1GO2MgbwPCbZI6jHtgIB9UgRAHE")
