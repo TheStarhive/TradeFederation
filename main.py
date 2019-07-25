@@ -22,6 +22,6 @@ async def on_member_remove(member):
 
 @bot.command()
 async def ping(ctx, *, argument: str):
-    await ctx.send("Pong" + argument)
+    await ctx.send("!ping no u")
 
 bot.run(str(os.environ.get("BOT_TOKEN")))
