@@ -21,7 +21,7 @@ async def on_member_remove(member):
             await channel.send("Sadly, " + member.name + " just left the server.")
 
 @bot.command()
-async def ping(ctx, *, argument: str):
-    await ctx.send("no u")
+async def ding(ctx):
+    await ctx.send("!dong")
 
 bot.run(str(os.environ.get("BOT_TOKEN")))
